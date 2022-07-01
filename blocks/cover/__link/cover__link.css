@@ -13,5 +13,6 @@ transition: background-color .2s linear;
 }
 
 .cover__link:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color:  #2A2C2F;
+  opacity: 0.8;
 }
