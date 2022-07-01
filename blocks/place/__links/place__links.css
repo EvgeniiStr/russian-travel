@@ -1,0 +1,22 @@
+.place__links {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+@media (min-width: 320px) {
+  .place__links {
+    margin: 0 16px;
+    row-gap: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .place__links {
+    margin: 0;
+    row-gap: 12px;
+  }
+}
