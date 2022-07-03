@@ -11,12 +11,11 @@
 
 
   /*hex: #2A2C2F => rgba(42, 44, 47, 0.3)*/
-  background: rgba(42, 44, 47, 0.3);
+  background-color: rgba(42, 44, 47, 0.3);
 
-transition: background-color .2s linear;
+  transition: background-color .2s linear;
 }
 
 .cover__link:hover {
-  background-color:  #2A2C2F;
-  opacity: 0.8;
+  background-color: rgba(42, 44, 47, 0.8);
 }
